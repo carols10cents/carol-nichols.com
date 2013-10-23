@@ -1,0 +1,9 @@
+name: Carol's 10 Cents
+url: http://carol-nichols.com
+description: This blog was re-released before it was ready
+
+permalink: /:year/:month/:day/:title/
+paginate: 10
+pygments: true
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']

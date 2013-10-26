@@ -5,7 +5,7 @@ date:   2010-12-05 23:11:30
 categories:
 ---
 
-So <a href="http://carol-nichols.com/?p=17">since I didn't have too much luck last night</a> in getting win32console installed and Cucumber to recognize that I had win32console installed, I decided to try looking for the other problem I was seeing: "uninitialized constant win32".
+So [since I didn't have too much luck last night](/2010/12/04/lets-try-this-again-shall-we-win32console-problems) in getting win32console installed and Cucumber to recognize that I had win32console installed, I decided to try looking for the other problem I was seeing: "uninitialized constant win32".
 
 Googling that error message got me to <a href="http://doelsengupta.blogspot.com/2010/10/uninitialized-constant-win32-nameerror.html">this post</a> which reminded me that I'm not working in Rails 2.3.x (like I do at my day job). So then I added win32console to my development group in my gemfile, did a bundle install, and rake cucumber then got me the 0 scenarios, 0 steps output without any errors.
 

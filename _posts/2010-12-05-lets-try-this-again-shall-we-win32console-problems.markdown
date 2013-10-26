@@ -5,7 +5,7 @@ date:   2010-12-05 00:37:22
 categories:
 ---
 
-So after <a href="http://carol-nichols.com/?p=11">last night's attempt</a> to get a working windows+ruby+rails+cucumber environment and the blogging thereof, I was ready to make some real progress tonight.
+So after [last night's attempt](/2010/12/03/bug-cross-thread-violation-on-rb-gc) to get a working windows+ruby+rails+cucumber environment and the blogging thereof, I was ready to make some real progress tonight.
 
 No dice. I got through a handful more commands in the RSpec book before I hit another issue.
 

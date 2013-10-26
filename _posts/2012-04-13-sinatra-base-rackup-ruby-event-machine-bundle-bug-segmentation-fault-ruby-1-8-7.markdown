@@ -1,4 +1,9 @@
-Sinatra:Base rackup: rubyeventmachine.bundle: [BUG] Segmentation fault ruby 1.8.7
+---
+layout: post
+title:  "Sinatra:Base rackup: rubyeventmachine.bundle: [BUG] Segmentation fault ruby 1.8.7"
+date:   2012-04-13 19:08:12
+categories:
+---
 
 I was *just* saying yesterday that I haven't run into any strange errors lately. I guess I forgot to knock on wood!
 

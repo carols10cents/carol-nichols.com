@@ -1,4 +1,9 @@
-In which I buy a Mac
+---
+layout: post
+title:  "In which I buy a Mac"
+date:   2011-06-02 11:08:27
+categories:
+---
 
 [caption id="attachment_117" align="alignright" width="225" caption="Complete with RMU sticker!"]<a href="http://carol-nichols.com/wp-content/uploads/2011/06/IMG_20110602_103531.jpg"><img src="http://carol-nichols.com/wp-content/uploads/2011/06/IMG_20110602_103531-225x300.jpg" alt="me and my MBA" width="225" height="300" class="size-medium wp-image-117" /></a>[/caption]
 

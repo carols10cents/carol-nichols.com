@@ -1,4 +1,9 @@
-Wordpress 3.5.1 multisite subdirectory problem
+---
+layout: post
+title:  "Wordpress 3.5.1 multisite subdirectory problem"
+date:   2013-05-19 17:46:36
+categories:
+---
 
 I recently created a new wordpress 3.5.1 install with the intention of enabling multisite. I followed all the <a href="http://codex.wordpress.org/Create_A_Network">official instructions</a> and everything seemed to be working until I got to actually creating a second site in the network with a subdirectory.
 

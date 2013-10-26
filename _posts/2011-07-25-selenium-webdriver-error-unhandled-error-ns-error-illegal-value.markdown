@@ -1,4 +1,9 @@
-Selenium::WebDriver::Error::UnhandledError (NS_ERROR_ILLEGAL_VALUE)
+---
+layout: post
+title:  "Selenium::WebDriver::Error::UnhandledError (NS_ERROR_ILLEGAL_VALUE)"
+date:   2011-07-25 21:51:35
+categories:
+---
 
 Somewhere around the time that I got a Mac, upgraded Firefox, upgraded selenium-webdriver, upgraded Capybara and started running lots of acceptance tests in selenium, I started getting errors like this:
 

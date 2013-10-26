@@ -1,4 +1,9 @@
-Enable SSL with Heroku for https access
+---
+layout: post
+title:  "Enable SSL with Heroku for https access"
+date:   2012-07-21 18:59:31
+categories:
+---
 
 For <a href="https://rstat.us">rstat.us</a>, we've been meaning to enable ssl/https <a href="https://github.com/hotsh/rstat.us/issues/89">for a long time</a>. I'm pleased to announce that we've finally gotten around to it, and everything seems to be working now!
 

@@ -1,4 +1,9 @@
-Bundler seems to be helping to prevent name conflicts
+---
+layout: post
+title:  "Bundler seems to be helping to prevent name conflicts"
+date:   2010-12-11 00:10:45
+categories:
+---
 
 So I'm not totally sure because I'm (obviously) not all that familiar with bundler, but it seems that if I have done a bundle install with a Gemfile where cucumber (and thus term-ansicolor) is included, "rails generate model Term" fails and says:
 

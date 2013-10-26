@@ -1,4 +1,9 @@
-cucumber + win32console, continued
+---
+layout: post
+title:  "cucumber + win32console, continued"
+date:   2010-12-05 23:11:30
+categories:
+---
 
 So <a href="http://carol-nichols.com/?p=17">since I didn't have too much luck last night</a> in getting win32console installed and Cucumber to recognize that I had win32console installed, I decided to try looking for the other problem I was seeing: "uninitialized constant win32".
 

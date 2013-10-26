@@ -1,4 +1,9 @@
-Google Chrome AJAX POST request: net_error = -100 (CONNECTION_CLOSED)
+---
+layout: post
+title:  "Google Chrome AJAX POST request: net_error = -100 (CONNECTION_CLOSED)"
+date:   2011-10-05 14:30:15
+categories:
+---
 
 I haven't totally figured this out yet. I'm probably doing something dumb.
 

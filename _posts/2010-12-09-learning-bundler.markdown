@@ -1,4 +1,9 @@
-Learning Bundler
+---
+layout: post
+title:  "Learning Bundler"
+date:   2010-12-09 17:37:15
+categories:
+---
 
 So after I figured out how to fix <a href="http://carol-nichols.com/?p=11">the cross-thread violations</a> due to the json gem, and the other problems I ran into, I reproduced <a href="https://rspec.lighthouseapp.com/projects/16211/tickets/489-rails-model-naming-conflict-with-term#ticket-489-4">the bug I was actually attempting to fix</a>. Then I checked out cucumber, changed my Gemfile to use my dev version of cucumber, did a bundle install and started poking around in the code while that finished. I noticed that the newest version of cucumber now uses <a href="http://adoxa.110mb.com/ansicon/">ANSICON</a> to do colors on windows-- I'm not yet sure how that affects the bug I'm trying to fix that has to do with term-ansicolor.
 

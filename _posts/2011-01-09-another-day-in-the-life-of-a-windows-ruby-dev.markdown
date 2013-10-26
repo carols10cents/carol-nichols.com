@@ -1,4 +1,9 @@
-Another day in the life of a Windows+Ruby dev
+---
+layout: post
+title:  "Another day in the life of a Windows+Ruby dev"
+date:   2011-01-09 17:41:10
+categories:
+---
 
 So today I decided to try to fix <a href="https://rspec.lighthouseapp.com/projects/16211/tickets/358-color-loadingwarning-ignores-no-color">issue 358 of cucumber</a>. I'm not even to the point of reproducing the bug yet. *sigh*
 

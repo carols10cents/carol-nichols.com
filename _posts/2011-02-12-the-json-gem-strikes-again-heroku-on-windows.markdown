@@ -1,4 +1,9 @@
-The json gem strikes again: heroku on Windows
+---
+layout: post
+title:  "The json gem strikes again: heroku on Windows"
+date:   2011-02-12 13:34:09
+categories:
+---
 
 This json gem without windows binaries for Ruby 1.9.2 is the bane of my existence.
 

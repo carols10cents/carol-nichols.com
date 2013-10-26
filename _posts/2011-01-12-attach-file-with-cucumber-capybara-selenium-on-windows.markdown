@@ -1,4 +1,9 @@
-attach_file with cucumber+capybara+selenium on Windows
+---
+layout: post
+title:  "attach_file with cucumber+capybara+selenium on Windows"
+date:   2011-01-12 14:16:01
+categories:
+---
 
 Yesterday I was working with some scenarios having to do with file upload, and I thought they were failing because of something I was doing in the code, but they were not failing for my colleague on a mac (you don't have to tell me what the obvious solution to this is, I know).
 

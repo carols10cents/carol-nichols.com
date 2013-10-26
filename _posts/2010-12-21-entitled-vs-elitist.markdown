@@ -1,4 +1,9 @@
-Entitled vs. Elitist
+---
+layout: post
+title:  "Entitled vs. Elitist"
+date:   2010-12-21 21:59:34
+categories:
+---
 
 There's a thread on reddit that asks <a href="http://www.reddit.com/r/ruby/comments/elygz/what_is_the_biggest_current_problem_in_ruby/">"What is the biggest current problem in the Ruby community?"</a> that I found to be very interesting. Among comments about performance, documentation, scientific and math libraries and an IDE was <a href="http://www.reddit.com/r/ruby/comments/elygz/what_is_the_biggest_current_problem_in_ruby/c195789">a bit of a flamewar about developing in ruby on windows</a>.
 

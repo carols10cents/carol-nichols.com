@@ -1,4 +1,9 @@
-Top 5 reasons I develop in Ruby on Windows
+---
+layout: post
+title:  "Top 5 reasons I develop in Ruby on Windows"
+date:   2010-12-16 21:36:10
+categories:
+---
 
 Here's the post that <a href="http://andrewcox.org/">Andrew</a> has been waiting for: why I continue to try to develop Ruby in Windows rather than give up and switch to a Mac. Here, in order from least compelling at #5:
 

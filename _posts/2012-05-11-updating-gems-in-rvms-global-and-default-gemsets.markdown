@@ -1,4 +1,9 @@
-Updating gems in rvm's global and default gemsets
+---
+layout: post
+title:  "Updating gems in rvm's global and default gemsets"
+date:   2012-05-11 21:45:18
+categories:
+---
 
 This is mostly for my own reference; I know I've looked this up before and it's always hard to find, so at least now I'll have one place to look.
 

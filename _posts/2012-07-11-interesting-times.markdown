@@ -1,4 +1,9 @@
-Interesting Times
+---
+layout: post
+title:  "Interesting Times"
+date:   2012-07-11 21:41:18
+categories:
+---
 
 So today I put in my 2 weeks' notice at Careerimp-- for a variety of reasons that I'm not going to go into publicly, I no longer think the position is the right thing for me at this point in my career.
 

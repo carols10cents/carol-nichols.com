@@ -1,4 +1,9 @@
-NFL Playoffs Infographic Usability Fail
+---
+layout: post
+title:  "NFL Playoffs Infographic Usability Fail"
+date:   2011-01-02 23:17:21
+categories:
+---
 
 I'm going to make my first post on this here blog about user experience and more specifically the usability of the graphics discussing the NFL playoffs. User experience and watching American football are other passions of mine in addition to programming in Ruby. I feel like its appropriate to expand the scope of my blog to include usability but that regularly including football would be scope creep ;)
 [caption id="attachment_69" align="alignright" width="300" caption="Infographic on CBS during the Steelers-Browns game"]<a href="http://carol-nichols.com/wp-content/uploads/2011/01/nfl-infographic.jpg"><img src="http://carol-nichols.com/wp-content/uploads/2011/01/nfl-infographic-300x226.jpg" alt="" width="300" height="226" class="size-medium wp-image-69" /></a>[/caption]

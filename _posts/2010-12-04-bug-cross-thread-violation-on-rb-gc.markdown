@@ -1,4 +1,9 @@
-[BUG] cross-thread violation on rb_gc()
+---
+layout: post
+title:  "[BUG] cross-thread violation on rb_gc()"
+date:   2010-12-04 04:44:24
+categories:
+---
 
 The Problem:
 

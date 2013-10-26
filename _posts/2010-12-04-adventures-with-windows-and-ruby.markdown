@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Adventures with Windows and Ruby"
+date:   2010-12-04 04:09:40
+categories:
+---
+
 Part of the reason I'm starting this blog, now, is because I... develop in Ruby on Windows. There, I've said it.
 
 I know, I know. Don't think I haven't considered switching to a Mac. I have my reasons though (that I will detail someday).

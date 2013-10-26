@@ -5,7 +5,7 @@ date:   2011-03-17 19:40:09
 categories:
 ---
 
-So recently I started getting many incidents of the error "The system cannot find the path specified" when running just about anything from the windows command line and sometimes from the Git Bash shell. It was really weird because everything seemed to be working just fine: tests would pass, rails would function normally, etc, but I would get "The system cannot find the path specified" between various lines of output with seemingly no rhyme or reason.
+So recently I started getting many incidents of the error "The system cannot find the path specified" when running just about anything from the windows command line and sometimes from the Git Bash bash. It was really weird because everything seemed to be working just fine: tests would pass, rails would function normally, etc, but I would get "The system cannot find the path specified" between various lines of output with seemingly no rhyme or reason.
 
 I let this error go for a while since it wasn't really breaking anything, but eventually it started to piss me off because it wasn't even letting me know WHAT path it couldn't find!
 

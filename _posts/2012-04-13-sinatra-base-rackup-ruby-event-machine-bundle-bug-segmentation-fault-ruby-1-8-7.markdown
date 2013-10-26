@@ -66,7 +66,7 @@ Also note that I'm using rvm with ruby 1.9.2-p290 and a brand new gemset for thi
 
 When I ran <code>rackup</code> to start the server, I got this error message:
 
-{% highlight shell %}
+{% highlight bash %}
 $ rackup
 ~/.rvm/gems/ruby-1.9.2-p290@salmon_test/gems/eventmachine-0.12.10/lib/rubyeventmachine.bundle: [BUG] Segmentation fault
 ruby 1.8.7 (2010-01-10 patchlevel 249) [universal-darwin10.0]
@@ -76,7 +76,7 @@ Abort trap
 
 Why is it doing something with 1.8.7??? Who knows! Right after that I did an <code>rvm list</code>:
 
-{% highlight shell %}
+{% highlight bash %}
 $ rvm list
 
 rvm rubies

@@ -15,7 +15,7 @@ There it didn't look like there were any errors except that in the Status column
 
 By clicking on the request in the Net tab, or by opening chrome://net-internals/ in a new tab and going to the Events tab, I finally noticed this in the response headers:
 
-{% highlight shell %}
+{% highlight bash %}
     Content-Transfer-Encoding: binary
     Content-Type: text/html
     Content-Disposition: inline; filename="pdf_141.pdf"

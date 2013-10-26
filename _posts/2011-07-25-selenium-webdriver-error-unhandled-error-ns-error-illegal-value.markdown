@@ -7,7 +7,7 @@ categories:
 
 Somewhere around the time that I got a Mac, upgraded Firefox, upgraded selenium-webdriver, upgraded Capybara and started running lots of acceptance tests in selenium, I started getting errors like this:
 
-{% highlight shell %}
+{% highlight bash %}
 Selenium::WebDriver::Error::UnhandledError: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIDOMXPathEvaluator.createNSResolver]
 {% endhighlight %}
 
@@ -19,7 +19,7 @@ I didn't see anything initially useful in the output when running with $DEBUG on
 
 Dumping the firefox console log to disk (<a href="http://www.allenwei.cn/tips-add-firebug-extension-to-capybara/">this post was clearer to me than the capybara docs on how to do this</a>) showed this error that looked like what I saw:
 
-{% highlight shell %}
+{% highlight bash %}
 nsCommandProcessor.js:314 - Exception caught by driver: findElements([object Object])
 [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIDOMXPathEvaluator.createNSResolver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://fxdriver/modules/atoms.js :: <TOP_LEVEL> :: line 2354"  data: no]
 {% endhighlight %}

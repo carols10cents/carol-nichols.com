@@ -13,13 +13,13 @@ I checked out the capybara code and ran the gem's specs on my machine, and sure 
 
 The issue seems to be with the direction of the slashes in the paths. When I used attach_file, the paths would look like:
 
-{% highlight shell %}
+{% highlight bash %}
 C:/Ruby/capybara/lib/capybara/spec/fixtures/test_file.txt
 {% endhighlight %}
 
 While doing it manually through the browser gave me paths that looked like:
 
-{% highlight shell %}
+{% highlight bash %}
 C:\Ruby\capybara\lib\capybara\spec\fixtures\test_file.txt
 {% endhighlight %}
 

@@ -37,7 +37,7 @@ The certificate was good for both rstat.us and www.rstat.us, so that wasn't the 
 
 Not mentioned in that page, but linked in its references, is <a href="http://blog.dnsimple.com/zone-apex-naked-domain-alias-that-works/">a blog post by DNSimple introducing ALIAS records</a>. This is something that, as far as I can tell, only DNSimple has implemented, and it basically turns a CNAME into an A record behind the scenes without any need for user intervention should the IP addresses that the CNAME resolves to change.
 
-<a href="http://stackoverflow.com/questions/6701549/heroku-ssl-on-root-domain">This StackOverflow question</a> confirmed that the DNSimple ALIAS record would solve the problem I was having-- so I set up a DNSimple account ($3/mo for up to 10 domains at the moment, but <a href="https://dnsimple.com/r/c5d138eb58833f">use my referral link and we both get a month free!</a>&lt;/shameless-rstatus-promotion>), set up the following records:
+<a href="http://stackoverflow.com/questions/6701549/heroku-ssl-on-root-domain">This StackOverflow question</a> confirmed that the DNSimple ALIAS record would solve the problem I was having-- so I set up a DNSimple account ($3/mo for up to 10 domains at the moment, but <a href="https://dnsimple.com/r/c5d138eb58833f">use my referral link and we both get a month free!</a></shameless-rstatus-promotion>), set up the following records:
 
 <pre>
 ALIAS 	rstat.us 	www.rstat.us

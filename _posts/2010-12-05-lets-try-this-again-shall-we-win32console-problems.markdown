@@ -12,13 +12,13 @@ No dice. I got through a handful more commands in the RSpec book before I hit an
 I got the rails generate rspec:install and rails generate cucumber:install to work last night. The next steps, on pg 288 (of printing 1), were these, to make sure everything was wired up correctly:
 
 {% highlight ruby %}
-&gt; rake db:migrate # worked fine
+> rake db:migrate # worked fine
 
-&gt; rake db:test:prepare # worked fine
+> rake db:test:prepare # worked fine
 
-&gt; rake spec # got the expected output about not having any *_spec.rb files
+> rake spec # got the expected output about not having any *_spec.rb files
 
-&gt; rake cucumber # :(
+> rake cucumber # :(
 {% endhighlight %}
 
 I got 2 problems from this command: 'You must "gem install win32console"' and 'uninitialized constant Win32 (NameError)'. <a href="https://gist.github.com/728820">Here's a gist of the whole output</a>.

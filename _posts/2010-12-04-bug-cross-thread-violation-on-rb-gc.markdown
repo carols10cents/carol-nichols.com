@@ -10,13 +10,13 @@ The Problem:
 When I ran:
 
 {% highlight ruby %}
-&gt; rails generate rspec:install
+> rails generate rspec:install
 {% endhighlight %}
 
 or
 
 {% highlight ruby %}
-&gt; rails generate cucumber:install
+> rails generate cucumber:install
 {% endhighlight %}
 
 I got:
@@ -36,14 +36,14 @@ I found <a href="https://groups.google.com/group/rubyinstaller/browse_thread/thr
 His recommended fix, that worked for me, is to run:
 
 {% highlight ruby %}
-&gt; gem uninstall json
+> gem uninstall json
 {% endhighlight %}
 
 Then <a href="https://github.com/oneclick/rubyinstaller/wiki/Development-Kit">download and install DevKit</a> for the Ruby installation I was using (I'm using pik and was trying to set up a new environment, see the details below)
 
 Then run:
 {% highlight ruby %}
-&gt; gem install json --platform=ruby
+> gem install json --platform=ruby
 {% endhighlight %}
 
 And then the rails generate rspec:install and rails generate cucumber:install commands worked as expected.
@@ -61,8 +61,8 @@ Then I started installing-- rails 3.0.3 and cucumber 0.9.4 (the gem I'm interest
 At that point I switched to following <a href="http://pragprog.com/titles/achbd/the-rspec-book">The RSpec Book</a> starting on page 286 (of printing 1) which has you do:
 
 {% highlight ruby %}
-&gt; rails new &lt;my-app&gt;
-&gt; cd &lt;my-app&gt;
+> rails new <my-app>
+> cd <my-app>
 {% endhighlight %}
 
 Modify your Gemfile to be:
@@ -71,25 +71,25 @@ Modify your Gemfile to be:
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.3'
-gem 'sqlite3-ruby', :require =&gt; 'sqlite3'
+gem 'sqlite3-ruby', :require => 'sqlite3'
 
 group :development, :test do
-gem 'rspec-rails', "&gt;=2.0.0"
-gem 'cucumber-rails', "&gt;=0.3.2"
-gem 'webrat', "&gt;= 0.7.2"
+gem 'rspec-rails', ">=2.0.0"
+gem 'cucumber-rails', ">=0.3.2"
+gem 'webrat', ">= 0.7.2"
 end
 {% endhighlight %}
 
 Then run:
 
 {% highlight ruby %}
-&gt; bundle install
+> bundle install
 {% endhighlight %}
 
 And then finally:
 
 {% highlight ruby %}
-&gt; rails generate rspec:install
+> rails generate rspec:install
 {% endhighlight %}
 
 And that is how I got to the cross-thread violation on rb_gc(). Phew.

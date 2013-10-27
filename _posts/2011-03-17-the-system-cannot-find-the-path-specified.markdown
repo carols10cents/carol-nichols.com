@@ -24,7 +24,7 @@ So eventually I asked <a href="http://jakegoulding.posterous.com/">Jake</a> what
 
 The key entry had a Result of "PATH NOT FOUND":
 
-<table>
+<table class="data">
   <tr>
     <th>Process Name</th>
     <th>Operation</th>

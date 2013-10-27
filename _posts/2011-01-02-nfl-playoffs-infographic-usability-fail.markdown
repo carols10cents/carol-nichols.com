@@ -22,7 +22,7 @@ That these independent entities are not using an existing footnote standard and 
 
 However, there is NO universal reason for the use of these letters because the letters don't have the same meaning across networks! Some networks are even augmenting this "standard" with an actually standard asterisk, used in the same manner as the letters (why not add another letter??)
 
-<table>
+<table class="data">
   <tr>
     <th>Source</th>
     <th>x</th>

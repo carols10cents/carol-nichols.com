@@ -6,8 +6,9 @@ categories:
 ---
 
 I'm going to make my first post on this here blog about user experience and more specifically the usability of the graphics discussing the NFL playoffs. User experience and watching American football are other passions of mine in addition to programming in Ruby. I feel like its appropriate to expand the scope of my blog to include usability but that regularly including football would be scope creep ;)
-<a href="/assets/img/nfl-infographic.jpg"><img src="/assets/img/nfl-infographic-300x226.jpg" alt="" width="300" height="226" class="size-medium wp-image-69" /></a>
-Infographic on CBS during the Steelers-Browns game
+
+<a href="/assets/img/nfl-infographic.jpg"><img src="/assets/img/nfl-infographic.jpg" alt="" /></a>
+*Infographic on CBS during the Steelers-Browns game*
 
 My beef today is with the infographics that use x, y and z when discussing the NFL playoff picture. The use of these arbitrary letters is oddly ubiquitous throughout various media outlets' coverage of who has made the playoffs in which method, and using the letters makes it more difficult to understand the situation. Following my reasons for why this is so confusing are some suggestions as to how this information could be presented more clearly.
 
@@ -94,14 +95,14 @@ Why do we want to know these things? So I know if the team I am rooting is going
 
 So let's take another look at the CBS TV infographic-- what could we take out that doesn't serve the user goals?
 
-<a href="/assets/img/nfl-infographic.jpg"><img src="/assets/img/nfl-infographic-300x226.jpg" alt="" width="300" height="226" class="size-medium wp-image-69" /></a>
-Infographic on CBS during the Steelers-Browns game
+<a href="/assets/img/nfl-infographic.jpg"><img src="/assets/img/nfl-infographic.jpg" alt="" /></a>
+*Infographic on CBS during the Steelers-Browns game*
 
 I don't care about division leader vs wild card vs "in the hunt"-- I care about who is definitely in the playoffs and who only might be in the playoffs. I also don't really care about <em>how</em> a team is getting to the playoffs (i.e. winning their division vs wild card)-- I care if they definitely or possibly have the advantages of a first-round bye or home field.
 
 Here's my first attempt at a reorg:
 
-<a href="http://carol-nichols.com/wp-content/uploads/2011/01/improved.jpg"><img src="http://carol-nichols.com/wp-content/uploads/2011/01/improved.jpg" alt="" width="486" height="416" class="aligncenter size-full wp-image-78" /></a>
+<a href="http://carol-nichols.com/wp-content/uploads/2011/01/improved.jpg"><img src="http://carol-nichols.com/wp-content/uploads/2011/01/improved.jpg" alt="Image lost in blog migration. Might be back someday." width="486" height="416" class="aligncenter size-full wp-image-78" /></a>
 
 I think this is an improvement as it gets rid of the footnotes (thus saving space and mental effort) and clearly shows who (at that point in the day) is definitely in the playoffs and who might be in the playoffs. I'm not even entirely sure if I got the home field advantage column right since the current information is so muddled, but I believe the division winners get home field advantage over the wild cards in the first round, so the division winners have "home" in their column (and whichever of indianapolis/jacksonville makes it in will get the home field advantage).
 

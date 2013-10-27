@@ -11,7 +11,7 @@ I just started using heroku today with the heroku gem, and on every command I go
 
 As usual, <a href="http://stackoverflow.com/questions/2167992/problem-with-ruby-on-rails-on-windowsmsvcrt-ruby18-dll-error-newbie-questions">the fix is to reinstall the json gem</a> (after <a href="https://github.com/oneclick/rubyinstaller/wiki/Development-Kit">getting DevKit</a>):
 
-<strong>Edit:</strong> As pointed out by <a href="http://carol-nichols.com/2011/02/the-json-gem-strikes-again-heroku-on-windows/#comment-112">Chad Tipton in the comments</a>, you'll need to add --version=1.4.6 because 1.5.1 is out but 1.4.6 is the version of the json gem that the heroku gem depends on.
+<strong>Edit:</strong> As pointed out by Chad Tipton in the comments, you'll need to add --version=1.4.6 because 1.5.1 is out but 1.4.6 is the version of the json gem that the heroku gem depends on.
 
 {% highlight ruby %}
 > gem uninstall json

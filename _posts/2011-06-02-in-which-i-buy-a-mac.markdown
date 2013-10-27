@@ -5,9 +5,10 @@ date:   2011-06-02 11:08:27
 categories:
 ---
 
-[caption id="attachment_117" align="alignright" width="225" caption="Complete with RMU sticker!"]<a href="http://carol-nichols.com/wp-content/uploads/2011/06/IMG_20110602_103531.jpg"><img src="http://carol-nichols.com/wp-content/uploads/2011/06/IMG_20110602_103531-225x300.jpg" alt="me and my MBA" width="225" height="300" class="size-medium wp-image-117" /></a>[/caption]
+<img src="/assets/img/IMG_20110602_103531-225x300.jpg" alt="me and my MBA" width="225" height="300" class="size-medium wp-image-117" />
+Complete with RMU sticker!
 
-Yep, I did it. After much agonizing and wrestling with my identity, I bought a 13" Macbook Air. It was mostly because I have started a new job at <a href="http://blog.resunate.com/">Careerimp</a> (doing Rails dev for our web app <a href="http://resunate.com/">Resunate.com</a>) at which deploying Rails on Windows is not a concern <a href="http://carol-nichols.com/2010/12/top-5-reasons-i-develop-in-ruby-on-windows/">as it was at my last job</a>.
+Yep, I did it. After much agonizing and wrestling with my identity, I bought a 13" Macbook Air. It was mostly because I have started a new job at <a href="http://blog.resunate.com/">Careerimp</a> (doing Rails dev for our web app <a href="http://resunate.com/">Resunate.com</a>) at which deploying Rails on Windows is not a concern [as it was at my last job](/2010/12/16/top-5-reasons-i-develop-in-ruby-on-windows).
 
 I still have my Windows 7 netbook, and I'm still planning on doing Rails dev on it occasionally. I'm actually really excited to be able to quickly verify whether something is a Windows issue or a personal problem by being able to try something out on both.
 

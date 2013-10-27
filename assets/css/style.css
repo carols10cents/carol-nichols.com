@@ -33,7 +33,7 @@ table {
 /*** Basics ***/
 body {
 	font-family: Verdana, serif;
-	font-size: 13px;
+	font-size: 16px;
 	line-height: 1.7;
 }
 
@@ -52,9 +52,9 @@ ul, ol { padding: 0 0 18px 30px; }
 ol li, ul li { margin-top: 10px; margin-bottom: 10px; }
 em, i { font-style: italic; }
 strong, b { font-weight: bold; }
-small { font-size: 0.85em; }
-sup { vertical-align: super; font-size: 0.85em; }
-sub { vertical-align: sub; font-size: 0.85em; }
+small { font-size: 80%; }
+sup { vertical-align: super; font-size: 80%; }
+sub { vertical-align: sub; font-size: 80%; }
 
 code {
     font: 0.85em Monaco, Courier, Monospace;
@@ -64,7 +64,6 @@ blockquote {
     margin: 22px 22px;
     padding: 0 20px;
     border-left: 2px solid #000000;
-    font-size: 1.2em;
     font-style: italic;
     line-height: 1.5em;
 }
@@ -77,15 +76,15 @@ acronym, abbr {
 
 
 h1 {
-	font-size: 17px;
+	font-size: 180%;
 	margin: 0 0 10px 0;
 }
 h2 {
-	font-size: 15px;
+	font-size: 150%;
 	margin: 0 0 10px 0;
 }
 h3 {
-	font-size: 14px;
+	font-size: 120%;
 	margin: 0 0 10px 0;
 }
 
@@ -119,7 +118,7 @@ h3 {
 	margin: 40px auto 50px auto;
 }
 #header h1 {
-	font-size: 32px;
+	font-size: 250%;
 	margin-bottom: 4px;
 }
 #header h1 a {
@@ -130,7 +129,7 @@ h3 {
 	width: 500px;
 	margin: 50px auto 20px auto;
 	padding-top: 10px;
-	font-size: 0.85em;
+	font-size: 79%;
 	border-top: 1px solid #073642;
 }
 
@@ -155,7 +154,7 @@ h3 {
 #sidebar a {
 	border: none;
 	font-family: "Helvetica Neue", "Helvetica", serif;
-	font-size: 1.2em;
+	font-size: 160%;
 	padding: 2px 4px;
 }
 
@@ -167,7 +166,7 @@ article {
 }
 
 article h1 {
-	font-size: 17px;
+	font-size: 180%;
 	margin: 0 0 10px 0;
 }
 article h1 a {
@@ -180,12 +179,13 @@ article h1 a.anchor {
 article img {
 	display: block;
 	text-align: center;
-	margin: 0 auto 1em auto;
+	margin: 1em auto;
+  width: 500px;
 }
 
 article .meta {
 	padding-top: 6px;
-	font-size: 0.85em;
+	font-size: 100%;
 	font-style: italic;
 }
 
@@ -217,7 +217,7 @@ table.data td {
 .postnavigation {
 	padding-top: 10px;
     text-align: center;
-    font-size: 0.85em;
+    font-size: 100%;
 }
 
 .postnavigation .left {

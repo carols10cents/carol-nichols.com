@@ -20,7 +20,7 @@ And to make matters worse, around the same time that the error started happening
 
 I really had no idea which one of these things was likely responsible. Searching for this problem was tough since the error message was so general and can be caused by any number of things, and I didn't find anything that corresponded to the things I had done above, exactly.
 
-So eventually I asked <a href="http://jakegoulding.posterous.com/">Jake</a> what to do about this, and he recommended using <a href="http://technet.microsoft.com/en-us/sysinternals/bb896645">Process Monitor</a> to try and see what path was not being found. I fired it up, set up a filter to only show events from cmd.exe, ran a fast-running command that I knew would have the error, and started reading the logs.
+So eventually I asked <a href="http://jakegoulding.com/">Jake</a> what to do about this, and he recommended using <a href="http://technet.microsoft.com/en-us/sysinternals/bb896645">Process Monitor</a> to try and see what path was not being found. I fired it up, set up a filter to only show events from cmd.exe, ran a fast-running command that I knew would have the error, and started reading the logs.
 
 The key entry had a Result of "PATH NOT FOUND":
 

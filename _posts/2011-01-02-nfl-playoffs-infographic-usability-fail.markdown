@@ -68,6 +68,7 @@ However, there is NO universal reason for the use of these letters because the l
 </table>
 
 <em>[1] - also note that the meanings of the letters used on CBS Sports' website differ from the meanings used in the graphic above that I saw used on TV by CBS!! [2]</em>
+
 <em>[2] - see what I did there with those nice, standard footnotes?</em>
 
 So partly because the letters have no inherent meaning and partly because the letters have different meanings from different sources, when trying to figure out the information a graphic like this is telling me, I end up starting to scan from the top, then jumping to the bottom, then back up to where I was reading, then to the next line, then back down to the bottom, etc. I inevitably forget what a letter means even if I have already seen it, and once the graphic is removed from the screen I still feel like I have no idea who is definitely in or out of the playoffs. Unless you are deliberately trying to make it confusing, leaving the user devoid of the message you say you are trying to send is <strong>infographic fail</strong>.

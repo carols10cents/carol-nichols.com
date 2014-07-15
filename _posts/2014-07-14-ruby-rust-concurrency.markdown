@@ -9,8 +9,8 @@ I mostly do Ruby these days, but I've just recently started getting into Rust. I
 interesting! It's definitely expanding the way I think about programming, and I'm excited about the
 future it's foreshadowing.
 
-I'm a visual and experiental learner though, so when I see statements like "Race conditions are
-compile-time errors" I wonder what that looks like in the code, what kind of error message you get,
+I'm a visual and experiental learner though, so when I see statements like "<s>Race conditions</s> Data races are
+compile-time errors" ([thank you for the clarification, dbaupp :)](http://www.reddit.com/r/rust/comments/2aq2zy/ruby_rust_and_concurrency/cixp069)) I wonder what that looks like in the code, what kind of error message you get,
 and how that differs from what I know in Ruby.
 
 So I went out hunting for a trivial race condition in Ruby that I could port to Rust to see what would happen.

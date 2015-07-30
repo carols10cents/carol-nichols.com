@@ -3,6 +3,7 @@ layout: post
 title:  "Rustcamp Talk Notes: Navigating the Open Seas"
 date:   2015-08-01 15:09:18
 categories:
+alias: [/open-seas]
 ---
 
 I gave a talk called "Navigating the Open Seas" at [Rustcamp](http://rustcamp.com) today-- loosely

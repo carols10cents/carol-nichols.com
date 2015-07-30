@@ -158,7 +158,9 @@ h3 {
 	padding: 2px 4px;
 }
 
-
+ul {
+  list-style: disc;
+}
 
 /*** Posts ***/
 article {

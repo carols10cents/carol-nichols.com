@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Rust Discovery, or: How I Figure Things Out"
-date:   2015-05-10 15:09:18
+date:   2015-08-01 15:09:18
 categories:
 ---
 
@@ -26,7 +26,7 @@ path_glob : ident [ "::" [ path_glob
 path_item : ident | "mod" ;
 ```
 
-After reading this closely, I noticed what seemed to be like a few issues: 
+After reading this closely, I noticed what seemed to be like a few issues:
 
 1. `path` isn't defined anywhere (not even in another section in this document)
 2. <s>`use foo{bar}` (without the `::` between `foo` and `{`) would be valid and I don't think it is</s> I was totally wrong that the definition allowed this, see the "IN WHICH I REALIZE I'M TOTALLY WRONG" section. I'm leaving this in rather than correcting it because I think it's important to demonstrate how research can change your understanding of something.
@@ -35,7 +35,7 @@ After reading this closely, I noticed what seemed to be like a few issues:
 <s>The second problem seem to be because of ambiguous grouping. These are valid if the grouping is:</s> THIS IS TOTALLY WRONG SEE BELOW
 
 ```
-ident [ "::" [ path_glob | '*' ] ] ? 
+ident [ "::" [ path_glob | '*' ] ] ?
 |
 '{' path_item [ ',' path_item ] * '}'
 ```
@@ -60,7 +60,7 @@ In trying to figure out if things I find in code are, in fact, problems, I've fo
 - How did this get to be the way it is today? (history)
 - Does it match the current state of the rest of the code? (present)
 
-Let's start with the history! Git is really good at keeping track of the history of changes. There are a few tools git provides that could be useful in this case: 
+Let's start with the history! Git is really good at keeping track of the history of changes. There are a few tools git provides that could be useful in this case:
 
 * I could use `git log src/doc/grammar.md` to read the whole history of this file
 * I could use `git blame src/doc/grammar.md` to see which commit last changed each line in the file
@@ -129,9 +129,9 @@ I'm going to spare you the boring details of checking each section removed from 
 
 ## And back for one more
 
-Now, you'll notice I've mostly been avoiding problem #1. That's because it's the hardest one-- if `path` has never existed in any form, what is it supposed to be? 
+Now, you'll notice I've mostly been avoiding problem #1. That's because it's the hardest one-- if `path` has never existed in any form, what is it supposed to be?
 
-Before considering that question, I'm going to check the history a little bit more to be sure this wasn't a missed rename, since I noted that when `doc/rust.md` was moved to `src/doc/rust.md`, [the document at that version](https://raw.githubusercontent.com/alexcrichton/rust/864b434bfa3fd5b3ea9e38958652ed1abdc24f1d/src/doc/rust.md) had this problem already. I started by trying `git log -Gpath -- doc/rust.md` (I'm not sure why git needs the `--` in this one but not the previous commands, but oh well. Maybe because one slash could be a remote/branch but two slashes is clearly a filename?), but that yielded a lot of false positives of prose containing "path". I also tried `git log -G" path[^s]" -- doc/rust.md`, that got me fewer, but I decided to just start looking at commit messages and `git show`ing ones that looked potentially related, then using `/ path` in `less` when looking at the diff. 
+Before considering that question, I'm going to check the history a little bit more to be sure this wasn't a missed rename, since I noted that when `doc/rust.md` was moved to `src/doc/rust.md`, [the document at that version](https://raw.githubusercontent.com/alexcrichton/rust/864b434bfa3fd5b3ea9e38958652ed1abdc24f1d/src/doc/rust.md) had this problem already. I started by trying `git log -Gpath -- doc/rust.md` (I'm not sure why git needs the `--` in this one but not the previous commands, but oh well. Maybe because one slash could be a remote/branch but two slashes is clearly a filename?), but that yielded a lot of false positives of prose containing "path". I also tried `git log -G" path[^s]" -- doc/rust.md`, that got me fewer, but I decided to just start looking at commit messages and `git show`ing ones that looked potentially related, then using `/ path` in `less` when looking at the diff.
 
 Then I realized I was being silly-- if I'm looking for a potentially-existing-at-some-point definition of `path`, it would be at the beginning of a line and be followed by a space then a colon (assuming it followed the same conventions as the rest of the file). So that would be `git log -G"^path :" -- doc/rust.md`. And... nothing. I also tried leaving the filename off; that took a long time to also return nothing. Next I tried `git log -Guse_decl -- doc/rust.md`, found out a bit about how Rust syntax used to be, but still no clear `path` definition -- everything just referenced the Paths section that only defined `expr_path` and `type_path`. I eventually got back to [the commit introducing `doc/rust.md`](https://github.com/rust-lang/rust/commit/fefdb63c4c2b078c43836e2ae9d7ffcaeec32890), which says "Begin shift over to using pandoc, markdown and llnextgen for reference manual", but doesn't say shift FROM what. Considering there are no deletions, only additions, of the content I'm interested in, I'm assuming it lived somewhere outside of this repository. Dead end!
 

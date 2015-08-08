@@ -91,4 +91,8 @@ In order to get the nice, Big-O like graphs that I remember learning all about i
 
 <img src="/assets/img/big-o-graph.png" alt='Big-O graph showing that most of the solutions are the same, the uniq-count solution is significantly slower, and the map-inject solution is exponential' />
 
+UPDATE 2015-08-08: [Gankro](https://twitter.com/Gankro) kindly mentioned that I didn't put the y-axis in logarithmic scale originally, here's the fixed version. This lets you see more differences between the 10 similarly-performing solutions:
+
+<img src="/assets/img/big-o-graph-both-log.png" alt='The same data as the previous graph but with the y-axis using a logarithmic scale. There is now some visual difference between some of the 10 fastest solutions.' />
+
 So there you go! Go forth and benchmark your own code!

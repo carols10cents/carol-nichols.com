@@ -7,7 +7,7 @@ categories:
 
 I'm going to make my first post on this here blog about user experience and more specifically the usability of the graphics discussing the NFL playoffs. User experience and watching American football are other passions of mine in addition to programming in Ruby. I feel like its appropriate to expand the scope of my blog to include usability but that regularly including football would be scope creep ;)
 
-<a href="/assets/img/nfl-infographic.jpg"><img src="/assets/img/nfl-infographic.jpg" alt="" /></a>
+<a href="./assets/img/nfl-infographic.jpg"><img src="./assets/img/nfl-infographic.jpg" alt="" /></a>
 *Infographic on CBS during the Steelers-Browns game*
 
 My beef today is with the infographics that use x, y and z when discussing the NFL playoff picture. The use of these arbitrary letters is oddly ubiquitous throughout various media outlets' coverage of who has made the playoffs in which method, and using the letters makes it more difficult to understand the situation. Following my reasons for why this is so confusing are some suggestions as to how this information could be presented more clearly.
@@ -96,7 +96,7 @@ Why do we want to know these things? So I know if the team I am rooting is going
 
 So let's take another look at the CBS TV infographic-- what could we take out that doesn't serve the user goals?
 
-<a href="/assets/img/nfl-infographic.jpg"><img src="/assets/img/nfl-infographic.jpg" alt="" /></a>
+<a href="./assets/img/nfl-infographic.jpg"><img src="./assets/img/nfl-infographic.jpg" alt="" /></a>
 *Infographic on CBS during the Steelers-Browns game*
 
 I don't care about division leader vs wild card vs "in the hunt"-- I care about who is definitely in the playoffs and who only might be in the playoffs. I also don't really care about <em>how</em> a team is getting to the playoffs (i.e. winning their division vs wild card)-- I care if they definitely or possibly have the advantages of a first-round bye or home field.

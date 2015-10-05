@@ -42,11 +42,11 @@ I love the variety! I love that there's not a clear right answer! I love that th
 
 And as if [this wasn't Tom Sawyerish enough](https://twitter.com/BillLaboon/status/629462532734996480), I decided we then needed to have a vote. As of this writing, with the polls open about 24 hours, I've had 41 responses to these 3 questions:
 
-<img src="/assets/img/like.png" alt="Results of which do you like best, winners are arr.sort.chunk(&:itself).map {|v, vs| [v, vs.count]}.to_h with 10 votes (24.4%) then arr.uniq.map { |x| [x, arr.count(x)] }.to_h with 9 votes (22%)" />
+<img src="./assets/img/like.png" alt="Results of which do you like best, winners are arr.sort.chunk(&:itself).map {|v, vs| [v, vs.count]}.to_h with 10 votes (24.4%) then arr.uniq.map { |x| [x, arr.count(x)] }.to_h with 9 votes (22%)" />
 
-<img src="/assets/img/fastest.png" alt="Results of which do you think is fastest, winners are h = Hash.new(0); arr.each { |l| h[l] += 1 }; h and arr.sort.chunk(&:itself).map {|v, vs| [v, vs.count]}.to_h, both with 11 votes (26.8%)" />
+<img src="./assets/img/fastest.png" alt="Results of which do you think is fastest, winners are h = Hash.new(0); arr.each { |l| h[l] += 1 }; h and arr.sort.chunk(&:itself).map {|v, vs| [v, vs.count]}.to_h, both with 11 votes (26.8%)" />
 
-<img src="/assets/img/snark.png" alt="Results of which snarky answer did you really want to give, winner was What do you mean, you're not on Ruby 2.2 or Rails 4?	with 9 votes (23.1%)" />
+<img src="./assets/img/snark.png" alt="Results of which snarky answer did you really want to give, winner was What do you mean, you're not on Ruby 2.2 or Rails 4?	with 9 votes (23.1%)" />
 
 So then, of course, I had to benchmark the results. And I don't benchmark things very often, so I don't know how to do it off the top of my head, but luckily I had [Schneems' Rails pull request open in another tab](https://github.com/rails/rails/pull/21057) where [someone benchmarked parts of the code](https://github.com/rails/rails/pull/21057/files#r35902468) using [evanphx's benchmark-ips gem](https://github.com/evanphx/benchmark-ips). And a number of things appealed to me in the gem's readme, namely "No more guessing at random iteration counts!" If there's anything I know, it's that I don't know how to pick iteration counts. [The code I used is on GitHub](https://github.com/carols10cents/occurrence-counting/blob/master/bench.rb), and I'm sure I messed something up-- please send me pull requests if there are improvements to be made!
 
@@ -89,10 +89,10 @@ You'll have to [look at my code](https://github.com/carols10cents/occurrence-cou
 
 In order to get the nice, Big-O like graphs that I remember learning all about in college, I took the iterations per second from each N's comparison section of the results, took the inverse so that I had seconds per iteration, [and compiled them in a spreadsheet](https://docs.google.com/spreadsheets/d/10n6E5N0mD_DauGer9yFwIskzgdP4NhomdtDSj6EpsCI/edit?usp=sharing) then made a graph of the data on a logarithmic scale:
 
-<img src="/assets/img/big-o-graph.png" alt='Big-O graph showing that most of the solutions are the same, the uniq-count solution is significantly slower, and the map-inject solution is exponential' />
+<img src="./assets/img/big-o-graph.png" alt='Big-O graph showing that most of the solutions are the same, the uniq-count solution is significantly slower, and the map-inject solution is exponential' />
 
 UPDATE 2015-08-08: [Gankro](https://twitter.com/Gankro) kindly mentioned that I didn't put the y-axis in logarithmic scale originally, here's the fixed version. This lets you see more differences between the 10 similarly-performing solutions:
 
-<img src="/assets/img/big-o-graph-both-log.png" alt='The same data as the previous graph but with the y-axis using a logarithmic scale. There is now some visual difference between some of the 10 fastest solutions.' />
+<img src="./assets/img/big-o-graph-both-log.png" alt='The same data as the previous graph but with the y-axis using a logarithmic scale. There is now some visual difference between some of the 10 fastest solutions.' />
 
 So there you go! Go forth and benchmark your own code!

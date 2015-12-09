@@ -58,6 +58,7 @@ sub { vertical-align: sub; font-size: 80%; }
 
 code {
     font: 0.85em Monaco, Courier, Monospace;
+    white-space: pre-wrap;
 }
 
 blockquote {

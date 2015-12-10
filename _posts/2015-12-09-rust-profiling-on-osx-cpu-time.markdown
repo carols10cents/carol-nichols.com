@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Rust Profiling with Instruments and FlameGraph on OSX: CPU/Time"
-date:   2015-12-08 20:47:18
+date:   2015-12-09 20:47:18
 categories:
 ---
 
@@ -58,11 +58,11 @@ Instruments is a part of XCode. You've already downloaded 2 gigs of XCode, right
 * Choose a blank profiling template. (Or try others! I haven't explored all the options yet)
 * Click the "+" button in the upper right. Choose "Time Profiler" and drag it to the section in the upper left.
 * In the upper left, after your computer name (yes, my computer's name is the tableflip emoji), click on where it says "All processes" and click on "Choose Target" in order to choose just your executable instead of all processes. For some reason, populating the list of executables to choose from takes a long time, so don't be alarmed.
-  <a href="./assets/img/instruments-screenshot.png"><img src="./assets/img/instruments-screenshot.png" width="560" alt="Screenshot of Instruments showing the location of the Time Profiler, where you drop it, and where you choose your executable" /></a>
+  <a href="/assets/img/instruments-screenshot.png"><img src="/assets/img/instruments-screenshot.png" width="560" alt="Screenshot of Instruments showing the location of the Time Profiler, where you drop it, and where you choose your executable" /></a>
 * If needed, you can type environment variables and arguments into the "Choose Target" window. Here's an example where I added some arguments:
-  <a href="./assets/img/instruments-arguments.png"><img src="./assets/img/instruments-arguments.png" width="560" alt="Screenshot of Choose Target window with some arguments specified" /></a>
+  <a href="/assets/img/instruments-arguments.png"><img src="/assets/img/instruments-arguments.png" width="560" alt="Screenshot of Choose Target window with some arguments specified" /></a>
 * By default, the Time Profiler takes a sample every 1 ms. Because I was using a toy example, I found that I wasn't getting interesting results because my code wasn't being sampled very often, so I changed the sample interval from 1 ms to 40 microseconds in the lower right.
-  <a href="./assets/img/instruments-sampling-interval.png"><img src="./assets/img/instruments-sampling-interval.png" alt="Zoomed in screenshot of the sampling interval set to 40 microseconds" style="width: 340px"/></a>
+  <a href="/assets/img/instruments-sampling-interval.png"><img src="/assets/img/instruments-sampling-interval.png" alt="Zoomed in screenshot of the sampling interval set to 40 microseconds" style="width: 340px"/></a>
 * Click the record button in the upper left and wait for it to run your code. You may need to give administrator privileges to Instruments. You'll know it's done when the button changes back to a record button after being a stop button.
 * You do get a little bit of a graph across the top-- From the View menu, choosing "Snap Track to Fit" makes it a little easier to see. It still doesn't show very specific information though.
 
@@ -80,6 +80,6 @@ Instruments is a part of XCode. You've already downloaded 2 gigs of XCode, right
   ```
 * Open the resulting svg in your browser. You now have a pretty graph!!
 
-[Here's an SVG I made](./assets/img/instruments-flamegraph.svg) from [the toy code in this repo](https://github.com/carols10cents/rust-profiling-example).
+[Here's an SVG I made](/assets/img/instruments-flamegraph.svg) from [the toy code in this repo](https://github.com/carols10cents/rust-profiling-example).
 
 Happy profiling!!!

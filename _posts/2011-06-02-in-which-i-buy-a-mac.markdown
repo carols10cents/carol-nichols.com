@@ -5,7 +5,7 @@ date:   2011-06-02 11:08:27
 categories:
 ---
 
-<img src="./assets/img/IMG_20110602_103531-225x300.jpg" alt="me and my MBA" />
+<img src="/assets/img/IMG_20110602_103531-225x300.jpg" alt="me and my MBA" />
 Complete with RMU sticker!
 
 Yep, I did it. After much agonizing and wrestling with my identity, I bought a 13" Macbook Air. It was mostly because I have started a new job at <a href="http://blog.resunate.com/">Careerimp</a> (doing Rails dev for our web app <a href="http://resunate.com/">Resunate.com</a>) at which deploying Rails on Windows is not a concern [as it was at my last job](/2010/12/16/top-5-reasons-i-develop-in-ruby-on-windows).

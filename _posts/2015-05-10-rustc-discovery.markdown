@@ -68,13 +68,13 @@ Let's start with the history! Git is really good at keeping track of the history
 
 Taking a quick look at the log of the file, and especially with the stats that `git log --stat src/doc/grammar.md` shows, it looks like a lot of the grammar was added to this file in the first commit to it, [ffc5f1c](https://github.com/icorderi/rust/commit/ffc5f1ccd8b0c7ca07414c324729ecac97f47e6a). A GitHub trick I like to use is searching for the commit hash to find the pull request this commit was part of:
 
-<img src="./assets/img/github-commit-search.png" alt="screenshot showing that if you do a pull request search for a git SHA, you'll get the pull request that commit was part of" />
+<img src="/assets/img/github-commit-search.png" alt="screenshot showing that if you do a pull request search for a git SHA, you'll get the pull request that commit was part of" />
 
 This is awesome, because [in the PR description](https://github.com/rust-lang/rust/pull/19353) it says "The current state of the PR contains all the grammars that were available in reference.md and nothing else." So this content that looks brand new actually has more history as part of [reference.md](https://github.com/rust-lang/rust/blob/master/src/doc/reference.md)!
 
 So if I do `git log src/doc/reference.md`, I get... a lot of commits. `git log --format=oneline src/doc/reference.md | wc -l` => 356 commits as of today, to be exact. I don't know about you, but I'm not about to look through all of those individually. I did look at [the first commit](https://github.com/steveklabnik/rust/commit/47682f96de1da3bb0986e44e529cc51f24549c86), though, which shows that THIS file actually used to be `src/doc/rust.md`, and that the section I'm interested in had the same issues at that point.
 
-<img src="./assets/img/we-need-to-go-deeper.jpg" alt="screenshot of a paint program that has opened a screenshot of the screenshot of the screenshot to infinity, with the caption WE NEED TO GO DEEPER" />
+<img src="/assets/img/we-need-to-go-deeper.jpg" alt="screenshot of a paint program that has opened a screenshot of the screenshot of the screenshot to infinity, with the caption WE NEED TO GO DEEPER" />
 
 If I look at [the first commit to `src/doc/rust.md`](https://github.com/alexcrichton/rust/commit/864b434bfa3fd5b3ea9e38958652ed1abdc24f1d), the section I'm interested in is different at this point!
 

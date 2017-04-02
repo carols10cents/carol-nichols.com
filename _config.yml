@@ -4,7 +4,13 @@ description: This blog was re-released before it was ready
 
 permalink: /:year/:month/:day/:title/
 paginate: 10
-markdown: redcarpet
-pygments: true
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+gems:
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-paginate
+  - jekyll-redirect-from

@@ -5,6 +5,12 @@ date:   2015-12-09 20:47:18
 categories:
 ---
 
+## UPDATE APRIL 2017
+
+I just tried to follow my own directions and found out that Instruments no longer lets you export CSV data that the Time Profiler collects (I'm currently using Instruments Version 8.3 (8E162)). I'm leaving the rest of the post as-is in case it's useful to anyone still on an older version of Instruments, but any point after the export won't work, so no pretty flame graphs anymore :( There's still analysis of performance you can do within Instruments.
+
+## Original Post
+
 I recently decided I wanted to figure out a way to measure the performance of the Rust code I've been writing and see pretty graphs of what parts of the code were slower. There are a bunch of different ways to do this, and I was going to cover more than one of them, but [I am le tired](https://youtu.be/84Ud3V9NPw8?t=42s) so I decided to post this after writing only about Instruments + FlameGraph.
 
 My somewhat-arbitrary constraints used in picking this method of profiling and graphing:
